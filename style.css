@@ -1,7 +1,31 @@
 body {
-	margin:0;
 	font-family: Helvetica;
+	margin: 0px;
 }
+
+#menu {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+#menu ul {
+	margin-left: 100px;
+	padding: 20px;
+	margin: 0px 0 0 50px;
+}
+.menu-item{
+	margin-right: 40px; 
+	display: inline;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.menu-item.contact-item {
+position: relative;
+float: right;
+margin-right: 100px;
+}
+
 h1{
 	font-weight: 100;
 }

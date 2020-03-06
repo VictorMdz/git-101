@@ -3,6 +3,15 @@ body {
 	margin: 0px;
 }
 
+body a {
+	color: #000;
+}
+
+body a:hover {
+	color: #000;
+}
+
+/*Menu items*/
 #menu {
 	border-bottom: 1px solid #f1f1f1;
 }
@@ -26,10 +35,39 @@ float: right;
 margin-right: 100px;
 }
 
-h1{
+/*Banner header Home*/
+#header{
+	padding: 30px 150px;
+}
+.banner{
+	background-image:url(pictures/DSC06785.jpg);
+	background-size: cover;
+	display: flex;
+	align-items: flex-end;
+	height: 450px;
+	border-radius: 10px;
+}
+
+.banner-h1 {
+	padding: 20px;
+	background-color: rgba(255,255,255,1);	
+	width: 40%;
+	position: relative;
+	bottom: 0px;
+	margin: 0;
+
+}
+.banner h1 {
+	font-size: 40px;
+	font-weight: 700;
+}
+.reading-time{
+	font-size: 14px;
+	color: grey;
 	font-weight: 100;
 }
 
+/*
 #logo {
 	height: 80px;
 	width: 80px;
@@ -42,3 +80,21 @@ h1{
 	flex-direction: column;
 	height: 100vh;
 }
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

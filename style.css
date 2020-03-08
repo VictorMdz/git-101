@@ -21,12 +21,23 @@ body a:hover {
 	padding: 20px;
 	margin: 0px 0 0 50px;
 }
-.menu-item{
+.menu-item {
 	margin-right: 40px; 
 	display: inline;
 	text-transform: uppercase;
 	font-size: 14px;
 	font-weight: 100;
+	vertical-align: middle;
+}
+.menu-logo {
+	height: 18px;
+}
+
+.menu-item a {
+	text-decoration: none;
+}
+.menu-item a:hover {
+	color:grey;
 }
 
 .menu-item.contact-item {
